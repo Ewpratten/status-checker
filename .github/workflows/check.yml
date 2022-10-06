@@ -1,0 +1,21 @@
+on: 
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "*/15 * * * *"
+
+name: Check services
+jobs:
+  build-bundle-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run checks
+        run: python3 -m checker
