@@ -19,6 +19,6 @@ jobs:
 
       - name: Run checks
         env:
-          STATUSPAGE_API_KEY: ${{ secrets.STATUSPAGE_API_KEY }
-          STATUSPAGE_PAGE_ID: ${{ secrets.STATUSPAGE_PAGE_ID }
+          STATUSPAGE_API_KEY: ${{ secrets.STATUSPAGE_API_KEY }}
+          STATUSPAGE_PAGE_ID: ${{ secrets.STATUSPAGE_PAGE_ID }}
         run: python3 -m checker
