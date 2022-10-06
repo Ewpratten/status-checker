@@ -1,0 +1,38 @@
+[
+    {
+        "name": "rtr001",
+        "component": "wbmxp5xqyrd4",
+        "action": "ping",
+        "host": "74.119.150.163"
+    },
+    {
+        "name": "rtr004",
+        "component": "rry2gg6jhyhn",
+        "action": "ping",
+        "host": "134.195.121.110"
+    },
+    {
+        "name": "rtr001",
+        "component": "wxtjwjlyyh06",
+        "action": "ping",
+        "host": "193.148.249.164"
+    },
+    {
+        "name": "aprs.ewpratten.com",
+        "component": "bwvp3y6bwkbp",
+        "action": "http_get",
+        "host": "https://aprs.ewpratten.com/" 
+    },
+    {
+        "name": "miniflux",
+        "component": "q8zrgrmk93jd",
+        "action": "http_get",
+        "host": "https://dragon.ewpratten.com/miniflux" 
+    },
+    {
+        "name": "webrouter",
+        "component": "59gdtl0wmcd1",
+        "action": "http_get",
+        "host": "https://webrouter.ewpratten.com" 
+    }
+]
