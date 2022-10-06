@@ -9,6 +9,7 @@ name: Check services
 jobs:
   build-bundle-deploy:
     runs-on: ubuntu-latest
+    environment: Statuspage
     steps:
     
       - name: Checkout
