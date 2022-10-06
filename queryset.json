@@ -2,17 +2,17 @@
     {
         "name": "rtr001",
         "component": "wbmxp5xqyrd4",
-        "action": "ping",
-        "host": "74.119.150.163"
+        "action": "http_get",
+        "host": "http://74.119.150.163:8312"
     },
     {
         "name": "rtr004",
         "component": "rry2gg6jhyhn",
-        "action": "ping",
-        "host": "134.195.121.110"
+        "action": "http_get",
+        "host": "http://134.195.121.110:8312"
     },
     {
-        "name": "rtr001",
+        "name": "rtr005",
         "component": "wxtjwjlyyh06",
         "action": "ping",
         "host": "193.148.249.164"
