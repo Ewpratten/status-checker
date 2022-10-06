@@ -16,6 +16,8 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Install ping
+        run: sudo apt-get install iputils-ping
 
       - name: Run checks
         env:
