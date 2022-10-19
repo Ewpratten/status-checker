@@ -3,7 +3,7 @@
         "name": "yyz-edge",
         "component": "62gtyzsfxxwv",
         "action": "http_get",
-        "host": "yyz-edge.ewpratten.com"
+        "host": "http://yyz-edge.ewpratten.com"
     },
     {
         "name": "aprs.ewpratten.com",
