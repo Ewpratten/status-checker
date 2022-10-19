@@ -1,27 +1,9 @@
 [
     {
-        "name": "rtr001",
-        "component": "wbmxp5xqyrd4",
+        "name": "yyz-edge",
+        "component": "62gtyzsfxxwv",
         "action": "http_get",
-        "host": "http://74.119.150.163:8312",
-        "kwargs":{
-            "expect_status": 404
-        }
-    },
-    {
-        "name": "rtr004",
-        "component": "rry2gg6jhyhn",
-        "action": "http_get",
-        "host": "http://134.195.121.110:8312",
-        "kwargs":{
-            "expect_status": 404
-        }
-    },
-    {
-        "name": "rtr005",
-        "component": "wxtjwjlyyh06",
-        "action": "http_get",
-        "host": "http://193.148.249.164"
+        "host": "yyz-edge.ewpratten.com"
     },
     {
         "name": "aprs.ewpratten.com",
@@ -34,11 +16,5 @@
         "component": "q8zrgrmk93jd",
         "action": "http_get",
         "host": "https://dragon.ewpratten.com/miniflux" 
-    },
-    {
-        "name": "webrouter",
-        "component": "59gdtl0wmcd1",
-        "action": "http_get",
-        "host": "https://webrouter.ewpratten.com" 
     }
 ]
